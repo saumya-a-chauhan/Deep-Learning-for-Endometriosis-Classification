@@ -1,0 +1,592 @@
+Starting experiments. Device: cpu
+Data source: C:\Users\chauh\Downloads\deep_learning_dl_endometeriosi-dataset\dataset_final
+Found 1022 total images. Classes: ['endometriosis', 'no_endometriosis']
+
+
+=============================================
+--- RUNNING EXPERIMENT: 10% Training Data ---
+=============================================
+
+Dataset Split:
+  Total images:   1022
+  Train pool:     102 (10%)
+  Test pool:      920 (90%)
+    -> Final Train: 81
+    -> Final Val:   21
+
+Initializing model...
+Downloading: "https://download.pytorch.org/models/resnet50-11ad3fa6.pth" to C:\Users\chauh/.cache\torch\hub\checkpoints\resnet50-11ad3fa6.pth
+Starting training...
+
+Epoch 1/18 - 158.0s
+  Train loss: 0.6844 | Train Acc: 49.38% | Train AUC: 0.5244
+  Val   loss: 0.6805 | Val   Acc: 61.90% | Val   AUC: 0.5818
+  -> New best model found (val_auc=0.5818)
+
+Epoch 2/18 - 132.2s
+  Train loss: 0.6104 | Train Acc: 70.37% | Train AUC: 0.8608
+  Val   loss: 0.6388 | Val   Acc: 71.43% | Val   AUC: 0.7909
+  -> New best model found (val_auc=0.7909)
+
+Epoch 3/18 - 137.0s
+  Train loss: 0.4950 | Train Acc: 83.95% | Train AUC: 0.9823
+  Val   loss: 0.6126 | Val   Acc: 71.43% | Val   AUC: 0.8364
+  -> New best model found (val_auc=0.8364)
+
+Epoch 4/18 - 121.3s
+  Train loss: 0.4243 | Train Acc: 90.12% | Train AUC: 0.9780
+  Val   loss: 0.5515 | Val   Acc: 80.95% | Val   AUC: 0.9455
+  -> New best model found (val_auc=0.9455)
+
+Epoch 5/18 - 119.1s
+  Train loss: 0.2885 | Train Acc: 95.06% | Train AUC: 0.9933
+  Val   loss: 0.4315 | Val   Acc: 85.71% | Val   AUC: 0.9545
+  -> New best model found (val_auc=0.9545)
+
+Epoch 6/18 - 115.6s
+  Train loss: 0.2495 | Train Acc: 96.30% | Train AUC: 0.9969
+  Val   loss: 0.3785 | Val   Acc: 90.48% | Val   AUC: 0.9545
+
+Epoch 7/18 - 106.8s
+  Train loss: 0.1976 | Train Acc: 97.53% | Train AUC: 0.9957
+  Val   loss: 0.3843 | Val   Acc: 90.48% | Val   AUC: 0.9636
+  -> New best model found (val_auc=0.9636)
+
+Epoch 8/18 - 100.6s
+  Train loss: 0.1357 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.3975 | Val   Acc: 80.95% | Val   AUC: 0.9364
+
+Epoch 9/18 - 107.0s
+  Train loss: 0.1167 | Train Acc: 97.53% | Train AUC: 0.9994
+  Val   loss: 0.4478 | Val   Acc: 80.95% | Val   AUC: 0.9000
+
+Epoch 10/18 - 111.8s
+  Train loss: 0.0486 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.4246 | Val   Acc: 85.71% | Val   AUC: 0.9182
+
+Epoch 11/18 - 99.2s
+  Train loss: 0.1111 | Train Acc: 98.77% | Train AUC: 1.0000
+  Val   loss: 0.4305 | Val   Acc: 80.95% | Val   AUC: 0.9182
+
+Epoch 12/18 - 106.9s
+  Train loss: 0.0512 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.4499 | Val   Acc: 85.71% | Val   AUC: 0.9364
+
+Epoch 13/18 - 121.1s
+  Train loss: 0.0906 | Train Acc: 98.77% | Train AUC: 0.9994
+  Val   loss: 0.4517 | Val   Acc: 80.95% | Val   AUC: 0.9455
+
+Epoch 14/18 - 97.2s
+  Train loss: 0.1028 | Train Acc: 98.77% | Train AUC: 1.0000
+  Val   loss: 0.3886 | Val   Acc: 80.95% | Val   AUC: 0.9000
+
+Epoch 15/18 - 101.0s
+  Train loss: 0.0565 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.4620 | Val   Acc: 85.71% | Val   AUC: 0.9364
+
+Epoch 16/18 - 96.5s
+  Train loss: 0.0834 | Train Acc: 97.53% | Train AUC: 0.9957
+  Val   loss: 0.3481 | Val   Acc: 90.48% | Val   AUC: 0.9455
+
+Epoch 17/18 - 106.7s
+  Train loss: 0.0878 | Train Acc: 98.77% | Train AUC: 1.0000
+  Val   loss: 0.3347 | Val   Acc: 85.71% | Val   AUC: 0.9545
+
+Epoch 18/18 - 90.4s
+  Train loss: 0.0841 | Train Acc: 98.77% | Train AUC: 1.0000
+  Val   loss: 0.3511 | Val   Acc: 85.71% | Val   AUC: 0.9727
+  -> New best model found (val_auc=0.9727)
+
+Training finished.
+
+Loading best model for final evaluation...
+
+------------------------------
+FINAL VALIDATION SET METRICS
+------------------------------
+Validation Loss:     0.3511
+Validation Accuracy: 85.71%
+Validation F1-Score: 0.8235
+Validation AUC:      0.9727
+
+Validation Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.79      1.00      0.88        11
+no_endometriosis       1.00      0.70      0.82        10
+
+        accuracy                           0.86        21
+       macro avg       0.89      0.85      0.85        21
+    weighted avg       0.89      0.86      0.85        21
+
+
+Validation Confusion Matrix:
+[[11  0]
+ [ 3  7]]
+(Labels: endometriosis, no_endometriosis)
+
+------------------------------
+FINAL TEST SET METRICS
+------------------------------
+Test Loss:     0.3322
+Test Accuracy: 86.74%
+Test F1-Score: 0.8641
+Test AUC:      0.9352
+
+Test Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.89      0.85      0.87       480
+no_endometriosis       0.85      0.88      0.86       440
+
+        accuracy                           0.87       920
+       macro avg       0.87      0.87      0.87       920
+    weighted avg       0.87      0.87      0.87       920
+
+
+Test Confusion Matrix:
+[[410  70]
+ [ 52 388]]
+(Labels: endometriosis, no_endometriosis)
+
+=============================================
+
+=============================================
+--- RUNNING EXPERIMENT: 20% Training Data ---
+=============================================
+
+Dataset Split:
+  Total images:   1022
+  Train pool:     204 (20%)
+  Test pool:      818 (80%)
+    -> Final Train: 163
+    -> Final Val:   41
+
+Initializing model...
+Starting training...
+
+Epoch 1/18 - 148.9s
+  Train loss: 0.6740 | Train Acc: 57.67% | Train AUC: 0.6267
+  Val   loss: 0.6240 | Val   Acc: 78.05% | Val   AUC: 0.8214
+  -> New best model found (val_auc=0.8214)
+
+Epoch 2/18 - 146.5s
+  Train loss: 0.5263 | Train Acc: 84.05% | Train AUC: 0.9199
+  Val   loss: 0.4683 | Val   Acc: 87.80% | Val   AUC: 0.9571
+  -> New best model found (val_auc=0.9571)
+
+Epoch 3/18 - 136.6s
+  Train loss: 0.3538 | Train Acc: 89.57% | Train AUC: 0.9618
+  Val   loss: 0.3320 | Val   Acc: 92.68% | Val   AUC: 0.9643
+  -> New best model found (val_auc=0.9643)
+
+Epoch 4/18 - 139.5s
+  Train loss: 0.2567 | Train Acc: 92.64% | Train AUC: 0.9722
+  Val   loss: 0.3211 | Val   Acc: 82.93% | Val   AUC: 0.9595
+
+Epoch 5/18 - 132.0s
+  Train loss: 0.1436 | Train Acc: 96.32% | Train AUC: 0.9944
+  Val   loss: 0.3158 | Val   Acc: 82.93% | Val   AUC: 0.9524
+
+Epoch 6/18 - 145.9s
+  Train loss: 0.0986 | Train Acc: 96.93% | Train AUC: 0.9956
+  Val   loss: 0.2980 | Val   Acc: 80.49% | Val   AUC: 0.9310
+
+Epoch 7/18 - 155.6s
+  Train loss: 0.0617 | Train Acc: 98.77% | Train AUC: 0.9958
+  Val   loss: 0.2982 | Val   Acc: 87.80% | Val   AUC: 0.9310
+
+Epoch 8/18 - 153.6s
+  Train loss: 0.0752 | Train Acc: 97.55% | Train AUC: 0.9956
+  Val   loss: 0.2732 | Val   Acc: 82.93% | Val   AUC: 0.9429
+
+Epoch 9/18 - 154.5s
+  Train loss: 0.0392 | Train Acc: 98.16% | Train AUC: 0.9997
+  Val   loss: 0.2457 | Val   Acc: 87.80% | Val   AUC: 0.9643
+
+Epoch 10/18 - 158.0s
+  Train loss: 0.0321 | Train Acc: 99.39% | Train AUC: 1.0000
+  Val   loss: 0.2548 | Val   Acc: 87.80% | Val   AUC: 0.9476
+
+Epoch 11/18 - 162.6s
+  Train loss: 0.0555 | Train Acc: 98.77% | Train AUC: 0.9988
+  Val   loss: 0.2958 | Val   Acc: 80.49% | Val   AUC: 0.9476
+
+Epoch 12/18 - 206.4s
+  Train loss: 0.1510 | Train Acc: 97.55% | Train AUC: 0.9910
+  Val   loss: 0.3530 | Val   Acc: 78.05% | Val   AUC: 0.9262
+
+Epoch 13/18 - 160.3s
+  Train loss: 0.0304 | Train Acc: 99.39% | Train AUC: 1.0000
+  Val   loss: 0.4196 | Val   Acc: 75.61% | Val   AUC: 0.9143
+
+Epoch 14/18 - 170.1s
+  Train loss: 0.0399 | Train Acc: 99.39% | Train AUC: 0.9995
+  Val   loss: 0.3750 | Val   Acc: 75.61% | Val   AUC: 0.9238
+
+Epoch 15/18 - 241.0s
+  Train loss: 0.0414 | Train Acc: 98.77% | Train AUC: 1.0000
+  Val   loss: 0.3099 | Val   Acc: 78.05% | Val   AUC: 0.9333
+
+Epoch 16/18 - 189.5s
+  Train loss: 0.0763 | Train Acc: 99.39% | Train AUC: 0.9986
+  Val   loss: 0.2843 | Val   Acc: 82.93% | Val   AUC: 0.9429
+
+Epoch 17/18 - 188.6s
+  Train loss: 0.0198 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.2973 | Val   Acc: 80.49% | Val   AUC: 0.9357
+
+Epoch 18/18 - 149.6s
+  Train loss: 0.0349 | Train Acc: 98.77% | Train AUC: 0.9997
+  Val   loss: 0.2769 | Val   Acc: 80.49% | Val   AUC: 0.9381
+
+Training finished.
+
+Loading best model for final evaluation...
+
+------------------------------
+FINAL VALIDATION SET METRICS
+------------------------------
+Validation Loss:     0.2769
+Validation Accuracy: 80.49%
+Validation F1-Score: 0.8095
+Validation AUC:      0.9381
+
+Validation Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.84      0.76      0.80        21
+no_endometriosis       0.77      0.85      0.81        20
+
+        accuracy                           0.80        41
+       macro avg       0.81      0.81      0.80        41
+    weighted avg       0.81      0.80      0.80        41
+
+
+Validation Confusion Matrix:
+[[16  5]
+ [ 3 17]]
+(Labels: endometriosis, no_endometriosis)
+
+------------------------------
+FINAL TEST SET METRICS
+------------------------------
+Test Loss:     0.2565
+Test Accuracy: 89.73%
+Test F1-Score: 0.8955
+Test AUC:      0.9688
+
+Test Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.92      0.88      0.90       427
+no_endometriosis       0.87      0.92      0.90       391
+
+        accuracy                           0.90       818
+       macro avg       0.90      0.90      0.90       818
+    weighted avg       0.90      0.90      0.90       818
+
+
+Test Confusion Matrix:
+[[374  53]
+ [ 31 360]]
+(Labels: endometriosis, no_endometriosis)
+
+=============================================
+
+=============================================
+--- RUNNING EXPERIMENT: 50% Training Data ---
+=============================================
+
+Dataset Split:
+  Total images:   1022
+  Train pool:     511 (50%)
+  Test pool:      511 (50%)
+    -> Final Train: 408
+    -> Final Val:   103
+
+Initializing model...
+Starting training...
+
+Epoch 1/18 - 442.6s
+  Train loss: 0.5961 | Train Acc: 67.65% | Train AUC: 0.7737
+  Val   loss: 0.4834 | Val   Acc: 75.73% | Val   AUC: 0.9278
+  -> New best model found (val_auc=0.9278)
+
+Epoch 2/18 - 398.5s
+  Train loss: 0.3048 | Train Acc: 88.48% | Train AUC: 0.9595
+  Val   loss: 0.1884 | Val   Acc: 93.20% | Val   AUC: 0.9773
+  -> New best model found (val_auc=0.9773)
+
+Epoch 3/18 - 384.2s
+  Train loss: 0.1781 | Train Acc: 93.63% | Train AUC: 0.9846
+  Val   loss: 0.1838 | Val   Acc: 92.23% | Val   AUC: 0.9853
+  -> New best model found (val_auc=0.9853)
+
+Epoch 4/18 - 287.2s
+  Train loss: 0.1404 | Train Acc: 94.85% | Train AUC: 0.9898
+  Val   loss: 0.1232 | Val   Acc: 95.15% | Val   AUC: 0.9936
+  -> New best model found (val_auc=0.9936)
+
+Epoch 5/18 - 294.0s
+  Train loss: 0.1247 | Train Acc: 95.34% | Train AUC: 0.9905
+  Val   loss: 0.1972 | Val   Acc: 91.26% | Val   AUC: 0.9875
+
+Epoch 6/18 - 293.4s
+  Train loss: 0.0886 | Train Acc: 97.79% | Train AUC: 0.9951
+  Val   loss: 0.1552 | Val   Acc: 92.23% | Val   AUC: 0.9932
+
+Epoch 7/18 - 379.9s
+  Train loss: 0.0617 | Train Acc: 98.04% | Train AUC: 0.9990
+  Val   loss: 0.1078 | Val   Acc: 95.15% | Val   AUC: 0.9940
+  -> New best model found (val_auc=0.9940)
+
+Epoch 8/18 - 247.3s
+  Train loss: 0.0628 | Train Acc: 97.79% | Train AUC: 0.9979
+  Val   loss: 0.1339 | Val   Acc: 93.20% | Val   AUC: 0.9913
+
+Epoch 9/18 - 264.1s
+  Train loss: 0.0487 | Train Acc: 98.28% | Train AUC: 0.9989
+  Val   loss: 0.0981 | Val   Acc: 94.17% | Val   AUC: 0.9958
+  -> New best model found (val_auc=0.9958)
+
+Epoch 10/18 - 239.1s
+  Train loss: 0.0815 | Train Acc: 97.30% | Train AUC: 0.9958
+  Val   loss: 0.0788 | Val   Acc: 97.09% | Val   AUC: 0.9974
+  -> New best model found (val_auc=0.9974)
+
+Epoch 11/18 - 260.9s
+  Train loss: 0.0651 | Train Acc: 98.04% | Train AUC: 0.9969
+  Val   loss: 0.1320 | Val   Acc: 95.15% | Val   AUC: 0.9898
+
+Epoch 12/18 - 298.7s
+  Train loss: 0.0345 | Train Acc: 98.53% | Train AUC: 0.9995
+  Val   loss: 0.1194 | Val   Acc: 94.17% | Val   AUC: 0.9955
+
+Epoch 13/18 - 249.7s
+  Train loss: 0.0322 | Train Acc: 99.26% | Train AUC: 0.9997
+  Val   loss: 0.1422 | Val   Acc: 94.17% | Val   AUC: 0.9928
+
+Epoch 14/18 - 266.8s
+  Train loss: 0.0535 | Train Acc: 97.55% | Train AUC: 0.9985
+  Val   loss: 0.2385 | Val   Acc: 93.20% | Val   AUC: 0.9883
+
+Epoch 15/18 - 291.9s
+  Train loss: 0.0305 | Train Acc: 99.26% | Train AUC: 0.9999
+  Val   loss: 0.1679 | Val   Acc: 94.17% | Val   AUC: 0.9875
+
+Epoch 16/18 - 268.3s
+  Train loss: 0.0260 | Train Acc: 99.26% | Train AUC: 0.9996
+  Val   loss: 0.1642 | Val   Acc: 95.15% | Val   AUC: 0.9913
+
+Epoch 17/18 - 327.6s
+  Train loss: 0.0227 | Train Acc: 99.26% | Train AUC: 0.9999
+  Val   loss: 0.1136 | Val   Acc: 96.12% | Val   AUC: 0.9936
+
+Epoch 18/18 - 297.5s
+  Train loss: 0.0058 | Train Acc: 100.00% | Train AUC: 1.0000
+  Val   loss: 0.1327 | Val   Acc: 95.15% | Val   AUC: 0.9936
+
+Training finished.
+
+Loading best model for final evaluation...
+
+------------------------------
+FINAL VALIDATION SET METRICS
+------------------------------
+Validation Loss:     0.1327
+Validation Accuracy: 95.15%
+Validation F1-Score: 0.9505
+Validation AUC:      0.9936
+
+Validation Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.98      0.93      0.95        54
+no_endometriosis       0.92      0.98      0.95        49
+
+        accuracy                           0.95       103
+       macro avg       0.95      0.95      0.95       103
+    weighted avg       0.95      0.95      0.95       103
+
+
+Validation Confusion Matrix:
+[[50  4]
+ [ 1 48]]
+(Labels: endometriosis, no_endometriosis)
+
+------------------------------
+FINAL TEST SET METRICS
+------------------------------
+Test Loss:     0.0912
+Test Accuracy: 96.48%
+Test F1-Score: 0.9641
+Test AUC:      0.9968
+
+Test Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.99      0.94      0.97       267
+no_endometriosis       0.94      0.99      0.96       244
+
+        accuracy                           0.96       511
+       macro avg       0.97      0.97      0.96       511
+    weighted avg       0.97      0.96      0.96       511
+
+
+Test Confusion Matrix:
+[[251  16]
+ [  2 242]]
+(Labels: endometriosis, no_endometriosis)
+
+=============================================
+
+
+==================================================
+APPENDING 80% EXPERIMENT RUN
+==================================================
+
+
+=============================================
+--- RUNNING EXPERIMENT: 80% Training Data ---
+=============================================
+
+Dataset Split:
+  Total images:   1022
+  Train pool:     817 (80%)
+  Test pool:      205 (20%)
+    -> Final Train: 653
+    -> Final Val:   164
+
+Initializing model...
+Starting training...
+
+Epoch 1/18 - 373.7s
+  Train loss: 0.5208 | Train Acc: 73.35% | Train AUC: 0.8422
+  Val   loss: 0.2407 | Val   Acc: 88.41% | Val   AUC: 0.9764
+  -> New best model found (val_auc=0.9764)
+
+Epoch 2/18 - 369.7s
+  Train loss: 0.2150 | Train Acc: 91.58% | Train AUC: 0.9749
+  Val   loss: 0.1632 | Val   Acc: 93.29% | Val   AUC: 0.9860
+  -> New best model found (val_auc=0.9860)
+
+Epoch 3/18 - 408.1s
+  Train loss: 0.1489 | Train Acc: 94.33% | Train AUC: 0.9867
+  Val   loss: 0.1368 | Val   Acc: 94.51% | Val   AUC: 0.9914
+  -> New best model found (val_auc=0.9914)
+
+Epoch 4/18 - 347.3s
+  Train loss: 0.1133 | Train Acc: 96.02% | Train AUC: 0.9928
+  Val   loss: 0.1209 | Val   Acc: 96.34% | Val   AUC: 0.9908
+
+Epoch 5/18 - 735.3s
+  Train loss: 0.0765 | Train Acc: 97.70% | Train AUC: 0.9971
+  Val   loss: 0.0961 | Val   Acc: 96.95% | Val   AUC: 0.9949
+  -> New best model found (val_auc=0.9949)
+
+Epoch 6/18 - 262.7s
+  Train loss: 0.0886 | Train Acc: 98.01% | Train AUC: 0.9930
+  Val   loss: 0.1327 | Val   Acc: 93.90% | Val   AUC: 0.9925
+
+Epoch 7/18 - 289.4s
+  Train loss: 0.0907 | Train Acc: 96.32% | Train AUC: 0.9950
+  Val   loss: 0.1565 | Val   Acc: 93.90% | Val   AUC: 0.9891
+
+Epoch 8/18 - 275.8s
+  Train loss: 0.0646 | Train Acc: 98.47% | Train AUC: 0.9971
+  Val   loss: 0.2022 | Val   Acc: 92.07% | Val   AUC: 0.9915
+
+Epoch 9/18 - 281.5s
+  Train loss: 0.0697 | Train Acc: 97.24% | Train AUC: 0.9965
+  Val   loss: 0.1449 | Val   Acc: 95.73% | Val   AUC: 0.9902
+
+Epoch 10/18 - 267.5s
+  Train loss: 0.0419 | Train Acc: 98.77% | Train AUC: 0.9991
+  Val   loss: 0.1342 | Val   Acc: 95.12% | Val   AUC: 0.9884
+
+Epoch 11/18 - 269.5s
+  Train loss: 0.0387 | Train Acc: 98.77% | Train AUC: 0.9993
+  Val   loss: 0.1759 | Val   Acc: 94.51% | Val   AUC: 0.9928
+
+Epoch 12/18 - 271.2s
+  Train loss: 0.0372 | Train Acc: 99.23% | Train AUC: 0.9990
+  Val   loss: 0.1455 | Val   Acc: 93.90% | Val   AUC: 0.9927
+
+Epoch 13/18 - 276.7s
+  Train loss: 0.0207 | Train Acc: 99.85% | Train AUC: 0.9990
+  Val   loss: 0.1464 | Val   Acc: 96.34% | Val   AUC: 0.9909
+
+Epoch 14/18 - 269.7s
+  Train loss: 0.0185 | Train Acc: 99.39% | Train AUC: 0.9999
+  Val   loss: 0.1604 | Val   Acc: 95.12% | Val   AUC: 0.9902
+
+Epoch 15/18 - 280.2s
+  Train loss: 0.0136 | Train Acc: 99.85% | Train AUC: 1.0000
+  Val   loss: 0.1738 | Val   Acc: 94.51% | Val   AUC: 0.9905
+
+Epoch 16/18 - 274.2s
+  Train loss: 0.0217 | Train Acc: 99.54% | Train AUC: 0.9998
+  Val   loss: 0.1908 | Val   Acc: 94.51% | Val   AUC: 0.9887
+
+Epoch 17/18 - 266.7s
+  Train loss: 0.0458 | Train Acc: 98.77% | Train AUC: 0.9981
+  Val   loss: 0.1943 | Val   Acc: 96.34% | Val   AUC: 0.9855
+
+Epoch 18/18 - 267.6s
+  Train loss: 0.0217 | Train Acc: 99.23% | Train AUC: 0.9998
+  Val   loss: 0.1726 | Val   Acc: 93.90% | Val   AUC: 0.9890
+
+Training finished.
+
+Loading best model for final evaluation...
+
+------------------------------
+FINAL VALIDATION SET METRICS
+------------------------------
+Validation Loss:     0.1726
+Validation Accuracy: 93.90%
+Validation F1-Score: 0.9383
+Validation AUC:      0.9890
+
+Validation Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.97      0.91      0.94        86
+no_endometriosis       0.90      0.97      0.94        78
+
+        accuracy                           0.94       164
+       macro avg       0.94      0.94      0.94       164
+    weighted avg       0.94      0.94      0.94       164
+
+
+Validation Confusion Matrix:
+[[78  8]
+ [ 2 76]]
+(Labels: endometriosis, no_endometriosis)
+
+------------------------------
+FINAL TEST SET METRICS
+------------------------------
+Test Loss:     0.1420
+Test Accuracy: 96.59%
+Test F1-Score: 0.9652
+Test AUC:      0.9908
+
+Test Classification Report:
+                  precision    recall  f1-score   support
+
+   endometriosis       0.99      0.94      0.97       107
+no_endometriosis       0.94      0.99      0.97        98
+
+        accuracy                           0.97       205
+       macro avg       0.97      0.97      0.97       205
+    weighted avg       0.97      0.97      0.97       205
+
+
+Test Confusion Matrix:
+[[101   6]
+ [  1  97]]
+(Labels: endometriosis, no_endometriosis)
+
+=============================================
