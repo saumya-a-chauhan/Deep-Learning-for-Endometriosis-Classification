@@ -1,258 +1,235 @@
-Endometriosis Classification using Deep Learning
 
-Automated Diagnosis of Endometriosis from Laparoscopic Images using Attention-Enhanced CNN Architectures
+# **Endometriosis Classification using Deep Learning**
 
-📖 Table of Contents
+### **Automated Diagnosis of Endometriosis from Laparoscopic Images using Attention-Enhanced CNN Architectures**
 
-Project Overview
+---
 
-Motivation
+## **📖 Table of Contents**
 
-Methodology
+* [Project Overview](#-project-overview)
+* [Motivation](#-motivation)
+* [Methodology](#-methodology)
+* [Dataset](#dataset)
+* [Architectures](#architectures)
+* [Attention Mechanisms](#attention-mechanisms)
+* [Novelty: StatAware Block](#-novelty-stataware-block)
+* [Experimental Setup](#-experimental-setup)
+* [Key Results](#-key-results)
+* [Visualizations](#-visualizations)
+* [Installation & Usage](#-installation--usage)
+* [Folder Structure](#-folder-structure)
+* [Contributors](#-contributors)
 
-Dataset
+---
 
-Architectures
+## **📌 Project Overview**
 
-Attention Mechanisms
+Endometriosis is a chronic gynecological condition affecting **~10% of reproductive-age women worldwide**. Diagnosis is often invasive and delayed by **7–10 years** due to reliance on laparoscopy and high lesion variability.
 
-Novelty: StatAware Block
+This project builds a **Computer-Aided Diagnosis (CAD)** system to classify laparoscopic images as **Endometriosis** or **Non-Endometriosis**.
+We compare modern deep learning architectures and integrate attention blocks to identify the most effective model under **data-scarce medical settings**.
 
-Experimental Setup
+---
 
-Key Results
+## **🎯 Motivation**
 
-Visualizations
+### **Clinical Need**
 
-Installation & Usage
+Assist surgeons during laparoscopy and reduce diagnosis delays.
 
-Folder Structure
+### **Technical Challenge**
 
-Contributors
+Medical datasets are small, imbalanced, and contain high texture variability. Standard CNNs often struggle without explicit feature enhancement.
 
-📌 Project Overview
+### **Solution**
 
-Endometriosis is a chronic gynecological condition affecting approximately 10% of reproductive-age women globally. Diagnosis is notoriously difficult, often delayed by 7-10 years due to the reliance on invasive laparoscopic surgery and the high variability in lesion appearance.
+Integrate **Attention Mechanisms** into SOTA CNN backbones for improved lesion detection, interpretability, and robustness.
 
-This project develops a Computer-Aided Diagnosis (CAD) system to automatically classify laparoscopic images as "Endometriosis" or "Non-Endometriosis". We conducted a rigorous comparative study of modern deep learning architectures and attention mechanisms to identify the most robust solution for medical image classification, especially under data-scarce conditions.
+---
 
-🎯 Motivation
+## **🧠 Methodology**
 
-Clinical Need: To reduce diagnostic delay and assist surgeons in identifying subtle lesions during laparoscopy.
+### **Dataset**
 
-Technical Challenge: Medical datasets are often small, unbalanced, and contain high textural variance. Standard CNNs (like ResNet) may struggle to distinguish pathological tissue from healthy tissue without specific feature enhancement.
+* **Source:** Private/Public laparoscopic image dataset
+* **Size:** ~1,000 images
+* **Classes:** *Endometriosis* vs. *Normal*
+* **Preprocessing:**
 
-Solution: We propose integrating Attention Mechanisms (which mimic human visual focus) into backbone networks to improve feature extraction and model interpretability.
+  * Resize to **224×224**
+  * Normalize (ImageNet)
+  * Augmentation: flips, color jitter, rotations
 
-🧠 Methodology
+---
 
-Dataset
+## **Architectures**
 
-Source: Private/Public Laparoscopic Image Dataset (Specify source if public).
+Three state-of-the-art backbones were benchmarked:
 
-Size: Total of ~1,000 images.
+* **ResNet50** — industry-standard residual network
+* **EfficientNetV2-S** — optimized for speed & efficiency
+* **ConvNeXt-Tiny** — CNN architecture inspired by ViTs
 
-Classes: Binary Classification (Endometriosis vs. Normal).
+---
 
-Preprocessing: Resized to 224x224, Normalized to ImageNet standards, Augmentation (Flip, Rotation, Color Jitter).
+## **Attention Mechanisms**
 
-Architectures
+A modular library integrates multiple attention blocks:
 
-We benchmarked three state-of-the-art backbones:
+* **CBAM** – Channel + spatial attention
+* **ECA-Net** – Lightweight channel attention
+* **SimAM** – Parameter-free attention
+* **Coordinate Attention** – Direction-aware spatial attention
+* **scSE / Triplet Attention** – Additional variants tested
 
-ResNet50: A robust, deep residual network (The industry standard).
+---
 
-EfficientNetV2-S: Optimized for training speed and parameter efficiency.
+## **🌟 Novelty: StatAware Block**
 
-ConvNeXt-Tiny: A modern architecture inspired by Vision Transformers.
+A custom-designed **StatAware Attention Block** introduces **global standard deviation (variance)** alongside global mean.
 
-Attention Mechanisms
+### **Why?**
 
-We implemented a modular library to inject the following attention blocks into the backbones:
+Lesions exhibit textural irregularities.
+Standard GAP only captures *mean* intensity — missing texture cues.
 
-CBAM (Convolutional Block Attention Module): Sequentially infers attention maps along two separate dimensions (channel and spatial).
+### **Innovation**
 
-ECA-Net (Efficient Channel Attention): Uses 1D convolution for lightweight channel attention.
+➡️ Compute **Global Mean + Global StdDev**
+➡️ Feed both into the attention module
+➡️ Improve texture-sensitive classification
 
-SimAM: A parameter-free, 3D attention module based on neuroscience energy functions.
+**Result:** Outperformed ResNet baseline in **3/4 experiments**.
 
-Coordinate Attention: Factorizes spatial attention into horizontal and vertical directions for precise localization.
+---
 
-scSE & Triplet Attention: Other variants tested for completeness.
+## **🧪 Experimental Setup**
 
-Novelty: StatAware Block
+* **Data Scarcity Study:** 10%, 20%, 50%, 80% splits
+* **Robustness Tests:** 5 random seeds for the 10% split
+* **Training Setup:**
 
-We designed and implemented a custom "StatAware" attention block.
+  * Optimizer: **AdamW (1e-4)**
+  * Loss: **CrossEntropy + Label Smoothing (0.1)**
+  * Epochs: **25**
+  * AMP (Mixed Precision)
 
-Hypothesis: Medical lesions often manifest as texture irregularities. Standard Global Average Pooling (GAP) only captures the mean intensity, ignoring texture variance.
+---
 
-Innovation: Our block explicitly calculates the Global Standard Deviation (Variance) alongside the Mean. It feeds both statistics into the attention network to better capture pathological textures.
+## **📊 Key Results**
 
-Outcome: This novelty successfully outperformed the ResNet Baseline in 3 out of 4 experimental scenarios.
+### **1. 🏆 Best Overall Model: ResNet50 + CBAM**
 
-🧪 Experimental Setup
+| Metric       | Score      |
+| ------------ | ---------- |
+| **Accuracy** | **97.07%** |
+| **Recall**   | **97.07%** |
+| **F1-Score** | **0.9705** |
 
-We designed a rigorous study to simulate real-world medical data constraints:
+---
 
-Data Scarcity Analysis: Models were trained on 10%, 20%, 50%, and 80% of the dataset to measure performance scaling.
+### **2. 🌟 Data-Scarcity Winner: ConvNeXt (10% Data)**
 
-Robustness Testing: For the critical 10% split (simulating rare disease data), we ran 5 independent trials with different random seeds and reported the Mean Accuracy ± Standard Deviation.
+| Model                   | Accuracy   |
+| ----------------------- | ---------- |
+| **ConvNeXt (Baseline)** | **90.05%** |
+| EfficientNetV2          | 81.85%     |
+| ResNet50                | 78.15%     |
 
-Training:
+---
 
-Optimizer: AdamW (Learning Rate: 1e-4)
+### **3. ✔ Novelty Validation: StatAware Block**
 
-Loss Function: CrossEntropyLoss with Label Smoothing (0.1)
+| Data Split | ResNet Baseline | ResNet + StatAware | Δ Improvement |
+| ---------- | --------------- | ------------------ | ------------- |
+| **20%**    | 84.39%          | **88.78%**         | **+4.39%**    |
+| **50%**    | 95.12%          | 91.22%             | -3.90%        |
+| **80%**    | 95.12%          | **95.61%**         | **+0.49%**    |
 
-Epochs: 25 per run
+---
 
-Hardware: Mixed Precision Training (AMP) for GPU optimization.
+## **📈 Visualizations**
 
-📊 Key Results
+### **Confusion Matrix**
 
-1. The Grand Champion: ResNet50 + CBAM
+ResNet50+CBAM shows minimal false negatives.
 
-When trained on the full dataset (80%), this architecture achieved the highest performance metrics of the entire study.
+### **Grad-CAM Heatmaps**
 
-Metric
+The model accurately focuses on lesion regions instead of backgrounds.
+(Generated in `results/` after running code.)
 
-Score
+---
 
-Accuracy
+## **💻 Installation & Usage**
 
-97.07%
+### **Prerequisites**
 
-Recall
-
-97.07%
-
-F1-Score
-
-0.9705
-
-2. The Low-Data Hero: ConvNeXt
-
-In scenarios with extreme data scarcity (only 10% data used), ConvNeXt proved to be far superior to older architectures.
-
-Model (10% Data)
-
-Accuracy
-
-ConvNeXt (Baseline)
-
-90.05%
-
-EfficientNetV2
-
-81.85%
-
-ResNet50 (Baseline)
-
-78.15%
-
-3. Novelty Validation
-
-Our custom StatAware block demonstrated clear improvements over the standard ResNet baseline.
-
-Data Split
-
-ResNet Baseline Acc
-
-ResNet + StatAware Acc
-
-Improvement
-
-20%
-
-84.39%
-
-88.78%
-
-+4.39%
-
-50%
-
-95.12%
-
-91.22%
-
--3.90%
-
-80%
-
-95.12%
-
-95.61%
-
-+0.49%
-
-📈 Visualizations
-
-Confusion Matrix
-
-The best model (ResNet50+CBAM) showed exceptional ability to distinguish classes with minimal false negatives.
-
-Grad-CAM Analysis
-
-We utilized Gradient-weighted Class Activation Mapping (Grad-CAM) to verify interpretability. The heatmaps confirm that the model focuses on the actual lesions (red regions) rather than background artifacts.
-
-(Note: These images will be generated in your results/ folder after running the code).
-
-💻 Installation & Usage
-
-Prerequisites
-
+```
 Python 3.8+
+PyTorch
+Torchvision
+Numpy
+Scikit-learn
+Matplotlib
+OpenCV
+```
 
-PyTorch, Torchvision
+### **Step 1: Install Dependencies**
 
-Numpy, Scikit-learn, Matplotlib, OpenCV
-
-Step 1: Install Dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
+### **Step 2: Train the Final Model**
 
-Step 2: Run the Final Model
-
-To train the best-performing architecture (ResNet50 + CBAM) and generate all plots:
-
+```bash
 python final_model/final_resnet_cbam.py
+```
 
+### **Step 3: Reproduce Experiments**
 
-Step 3: Reproduce Experiments
+Example:
 
-To re-run the comparative study for other architectures (e.g., ConvNeXt):
-
+```bash
 python experiments/run_convnext.py
+```
 
+---
 
-📂 Folder Structure
+## **📂 Folder Structure**
 
+```
 Endometriosis-ResNet-CBAM/
 │
-├── data/                       # Data (Not uploaded to git)
+├── data/                       
 │   └── dataset_final/
 │
-├── experiments/                # Research Code
-│   ├── attention_lib.py        # Shared Library (Novelty is here!)
-│   ├── run_resnet.py           # ResNet Experiment Runner
-│   ├── run_efficientnet.py     # EfficientNet Experiment Runner
-│   └── run_convnext.py         # ConvNeXt Experiment Runner
+├── experiments/                
+│   ├── attention_lib.py        
+│   ├── run_resnet.py           
+│   ├── run_efficientnet.py     
+│   └── run_convnext.py         
 │
-├── final_model/                # Deployment Code
-│   ├── final_lib.py            # Cleaned Library
-│   └── final_resnet_cbam.py    # Main Training Script
+├── final_model/                
+│   ├── final_lib.py            
+│   └── final_resnet_cbam.py    
 │
-├── results/                    # Logs & Graphs
+├── results/                    
 │   ├── confusion_matrix.png
 │   ├── gradcam_best.png
 │   └── final_results_cbam.txt
 │
 ├── requirements.txt
 └── README.md
+```
 
+---
 
-👥 Contributors
+## **👥 Contributors**
 
-Saumya (U20230016) , Bhavya Pathak (U20230136) , Harmannat Kaur (U20230066)
+* **Saumya (U20230016)**
+* **Bhavya Pathak (U20230136)**
+* **Harmannat Kaur (U20230066)**
+
