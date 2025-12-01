@@ -943,23 +943,4 @@ RESULT | SimAM | Split 10% | Acc: 0.7580 (+/- 0.0517) | Recall: 0.7624
     Epoch 24/25 | Train Loss: 0.0157 | Train Acc: 100.00%
     Epoch 25/25 | Train Loss: 0.0060 | Train Acc: 100.00%
 RESULT | SimAM | Split 20% | Acc: 0.7512 (+/- 0.0000) | Recall: 0.7613
-  > Split: 50% | Seed: 42 ...
-    Loss Function: CrossEntropyLoss()
-    Epoch 1/25 | Train Loss: 0.5195 | Train Acc: 79.17%
-    Epoch 2/25 | Train Loss: 0.2034 | Train Acc: 96.08%
-    Epoch 3/25 | Train Loss: 0.0583 | Train Acc: 99.75%
-    Epoch 4/25 | Train Loss: 0.0424 | Train Acc: 99.02%
-    Epoch 5/25 | Train Loss: 0.0161 | Train Acc: 99.75%
-    Epoch 6/25 | Train Loss: 0.0191 | Train Acc: 99.75%
-    Epoch 7/25 | Train Loss: 0.0097 | Train Acc: 100.00%
-    Epoch 8/25 | Train Loss: 0.0083 | Train Acc: 100.00%
-    Epoch 9/25 | Train Loss: 0.0045 | Train Acc: 100.00%
-    Epoch 10/25 | Train Loss: 0.0033 | Train Acc: 100.00%
-    Epoch 11/25 | Train Loss: 0.0026 | Train Acc: 100.00%
-    Epoch 12/25 | Train Loss: 0.0024 | Train Acc: 100.00%
-    Epoch 13/25 | Train Loss: 0.0011 | Train Acc: 100.00%
-    Epoch 14/25 | Train Loss: 0.0013 | Train Acc: 100.00%
-    Epoch 15/25 | Train Loss: 0.0037 | Train Acc: 99.75%
-    Epoch 16/25 | Train Loss: 0.0034 | Train Acc: 100.00%
-    Epoch 17/25 | Train Loss: 0.0461 | Train Acc: 98.53%
-    Epoch 18/25 | Train Loss: 0.0500 | Train Acc: 98.77%
+ 
