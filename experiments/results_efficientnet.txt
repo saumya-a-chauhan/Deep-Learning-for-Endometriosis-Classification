@@ -1,0 +1,57 @@
+Experiment Log Started
+
+========================================
+Running Architecture: EfficientNetV2 + Baseline
+========================================
+  > Split: 10% | Seed: 42 ...
+    Epoch 1/25 | Train Loss: 0.6773 | Train Acc: 55.56%
+    Epoch 5/25 | Train Loss: 0.2912 | Train Acc: 97.53%
+    Epoch 10/25 | Train Loss: 0.0761 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0368 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0227 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Test Results | Acc: 0.7756 | Rec: 0.7838 | F1: 0.7704
+  > Split: 10% | Seed: 10 ...
+    Epoch 1/25 | Train Loss: 0.6236 | Train Acc: 72.84%
+    Epoch 5/25 | Train Loss: 0.2508 | Train Acc: 95.06%
+    Epoch 10/25 | Train Loss: 0.0621 | Train Acc: 97.53%
+    Epoch 15/25 | Train Loss: 0.0532 | Train Acc: 97.53%
+    Epoch 20/25 | Train Loss: 0.0384 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0263 | Train Acc: 98.77%
+    Test Results | Acc: 0.8293 | Rec: 0.8274 | F1: 0.8282
+  > Split: 10% | Seed: 20 ...
+    Epoch 1/25 | Train Loss: 0.6608 | Train Acc: 64.20%
+    Epoch 5/25 | Train Loss: 0.3042 | Train Acc: 95.06%
+    Epoch 10/25 | Train Loss: 0.0758 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0734 | Train Acc: 97.53%
+    Epoch 20/25 | Train Loss: 0.0231 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0215 | Train Acc: 98.77%
+    Test Results | Acc: 0.8439 | Rec: 0.8479 | F1: 0.8435
+  > Split: 10% | Seed: 30 ...
+    Epoch 1/25 | Train Loss: 0.6531 | Train Acc: 59.26%
+    Epoch 5/25 | Train Loss: 0.2846 | Train Acc: 97.53%
+    Epoch 10/25 | Train Loss: 0.0463 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0361 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0874 | Train Acc: 97.53%
+    Epoch 25/25 | Train Loss: 0.0401 | Train Acc: 98.77%
+    Test Results | Acc: 0.8341 | Rec: 0.8394 | F1: 0.8330
+  > Split: 10% | Seed: 40 ...
+    Epoch 1/25 | Train Loss: 0.6596 | Train Acc: 66.67%
+    Epoch 5/25 | Train Loss: 0.2733 | Train Acc: 97.53%
+    Epoch 10/25 | Train Loss: 0.0603 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0214 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0235 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0187 | Train Acc: 100.00%
+    Test Results | Acc: 0.8098 | Rec: 0.8117 | F1: 0.8097
+SUMMARY | Baseline | Split 10% | Mean Acc: 0.8185 (+/- 0.0242) | Mean Recall: 0.8220
+  > Split: 20% | Seed: 42 ...
+    Epoch 1/25 | Train Loss: 0.6152 | Train Acc: 66.26%
+    Epoch 5/25 | Train Loss: 0.1280 | Train Acc: 97.55%
+    Epoch 10/25 | Train Loss: 0.0250 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0389 | Train Acc: 99.39%
+    Epoch 20/25 | Train Loss: 0.0251 | Train Acc: 99.39%
+    Epoch 25/25 | Train Loss: 0.0788 | Train Acc: 97.55%
+    Test Results | Acc: 0.8537 | Rec: 0.8590 | F1: 0.8526
+SUMMARY | Baseline | Split 20% | Mean Acc: 0.8537 (+/- 0.0000) | Mean Recall: 0.8590
+  > Split: 50% | Seed: 42 ...
+    Epoch 1/25 | Train Loss: 0.5778 | Train Acc: 70.10%
