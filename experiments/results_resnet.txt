@@ -1,0 +1,965 @@
+Experiment Log Started
+
+========================================
+Running Architecture: ResNet50 + Baseline
+========================================
+  > Split: 10% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6133 | Train Acc: 71.60%
+    Epoch 2/25 | Train Loss: 0.4517 | Train Acc: 92.59%
+    Epoch 3/25 | Train Loss: 0.3750 | Train Acc: 97.53%
+    Epoch 4/25 | Train Loss: 0.2158 | Train Acc: 100.00%
+    Epoch 5/25 | Train Loss: 0.2051 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1362 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0939 | Train Acc: 98.77%
+    Epoch 8/25 | Train Loss: 0.1022 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0728 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0663 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0500 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0328 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0394 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0438 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0252 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0312 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0337 | Train Acc: 98.77%
+    Epoch 18/25 | Train Loss: 0.0247 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0181 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0225 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0204 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0215 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0169 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0185 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0224 | Train Acc: 100.00%
+  > Split: 10% | Seed: 10 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6264 | Train Acc: 70.37%
+    Epoch 2/25 | Train Loss: 0.4611 | Train Acc: 92.59%
+    Epoch 3/25 | Train Loss: 0.4116 | Train Acc: 87.65%
+    Epoch 4/25 | Train Loss: 0.2607 | Train Acc: 100.00%
+    Epoch 5/25 | Train Loss: 0.1909 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1791 | Train Acc: 97.53%
+    Epoch 7/25 | Train Loss: 0.1152 | Train Acc: 98.77%
+    Epoch 8/25 | Train Loss: 0.0759 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0578 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0511 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0681 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0371 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0345 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0335 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0198 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0361 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0333 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0174 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0212 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0231 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0187 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0219 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0184 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0143 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0150 | Train Acc: 100.00%
+  > Split: 10% | Seed: 20 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6475 | Train Acc: 54.32%
+    Epoch 2/25 | Train Loss: 0.4716 | Train Acc: 93.83%
+    Epoch 3/25 | Train Loss: 0.4052 | Train Acc: 87.65%
+    Epoch 4/25 | Train Loss: 0.2935 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.2378 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1639 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1192 | Train Acc: 98.77%
+    Epoch 8/25 | Train Loss: 0.0903 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0591 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0523 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0472 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0326 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0400 | Train Acc: 98.77%
+    Epoch 14/25 | Train Loss: 0.0502 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0516 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0291 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0290 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0259 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0201 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0208 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0146 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0213 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0137 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0122 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0146 | Train Acc: 100.00%
+  > Split: 10% | Seed: 30 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6224 | Train Acc: 64.20%
+    Epoch 2/25 | Train Loss: 0.4639 | Train Acc: 85.19%
+    Epoch 3/25 | Train Loss: 0.3939 | Train Acc: 92.59%
+    Epoch 4/25 | Train Loss: 0.2872 | Train Acc: 97.53%
+    Epoch 5/25 | Train Loss: 0.1738 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1238 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1070 | Train Acc: 98.77%
+    Epoch 8/25 | Train Loss: 0.0686 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0643 | Train Acc: 98.77%
+    Epoch 10/25 | Train Loss: 0.0437 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0377 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0396 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0281 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0315 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0602 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0414 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0272 | Train Acc: 98.77%
+    Epoch 18/25 | Train Loss: 0.0258 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0265 | Train Acc: 98.77%
+    Epoch 20/25 | Train Loss: 0.0222 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0159 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0312 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0184 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0206 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0120 | Train Acc: 100.00%
+  > Split: 10% | Seed: 40 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6442 | Train Acc: 60.49%
+    Epoch 2/25 | Train Loss: 0.4906 | Train Acc: 91.36%
+    Epoch 3/25 | Train Loss: 0.3459 | Train Acc: 96.30%
+    Epoch 4/25 | Train Loss: 0.2693 | Train Acc: 97.53%
+    Epoch 5/25 | Train Loss: 0.2073 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1333 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.0989 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0933 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0572 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0383 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0402 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0317 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0288 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0314 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0266 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0192 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0363 | Train Acc: 98.77%
+    Epoch 18/25 | Train Loss: 0.0411 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0319 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0171 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0170 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0136 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0170 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0205 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0233 | Train Acc: 100.00%
+RESULT | Baseline | Split 10% | Acc: 0.7815 (+/- 0.0421) | Recall: 0.7810
+  > Split: 20% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6150 | Train Acc: 67.48%
+    Epoch 2/25 | Train Loss: 0.4230 | Train Acc: 88.96%
+    Epoch 3/25 | Train Loss: 0.2986 | Train Acc: 93.25%
+    Epoch 4/25 | Train Loss: 0.1441 | Train Acc: 100.00%
+    Epoch 5/25 | Train Loss: 0.0778 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.0544 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0294 | Train Acc: 99.39%
+    Epoch 9/25 | Train Loss: 0.0261 | Train Acc: 98.77%
+    Epoch 10/25 | Train Loss: 0.0252 | Train Acc: 99.39%
+    Epoch 11/25 | Train Loss: 0.0253 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0118 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0096 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0068 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0088 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0037 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0042 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0038 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0034 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0028 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0214 | Train Acc: 99.39%
+    Epoch 22/25 | Train Loss: 0.0132 | Train Acc: 99.39%
+    Epoch 23/25 | Train Loss: 0.0520 | Train Acc: 98.77%
+    Epoch 24/25 | Train Loss: 0.0369 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0202 | Train Acc: 99.39%
+RESULT | Baseline | Split 20% | Acc: 0.8439 (+/- 0.0000) | Recall: 0.8406
+  > Split: 50% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5795 | Train Acc: 72.06%
+    Epoch 2/25 | Train Loss: 0.2544 | Train Acc: 97.30%
+    Epoch 3/25 | Train Loss: 0.0699 | Train Acc: 99.26%
+    Epoch 4/25 | Train Loss: 0.0468 | Train Acc: 99.26%
+    Epoch 5/25 | Train Loss: 0.0292 | Train Acc: 99.26%
+    Epoch 6/25 | Train Loss: 0.0181 | Train Acc: 99.75%
+    Epoch 7/25 | Train Loss: 0.0109 | Train Acc: 99.75%
+    Epoch 8/25 | Train Loss: 0.0108 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0071 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0137 | Train Acc: 99.51%
+    Epoch 11/25 | Train Loss: 0.0197 | Train Acc: 99.51%
+    Epoch 12/25 | Train Loss: 0.0188 | Train Acc: 99.51%
+    Epoch 13/25 | Train Loss: 0.0251 | Train Acc: 99.26%
+    Epoch 14/25 | Train Loss: 0.0092 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0068 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0049 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0053 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0036 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0026 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0016 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0021 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0016 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0014 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0009 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0009 | Train Acc: 100.00%
+RESULT | Baseline | Split 50% | Acc: 0.9512 (+/- 0.0000) | Recall: 0.9520
+  > Split: 80% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.4279 | Train Acc: 87.14%
+    Epoch 2/25 | Train Loss: 0.1271 | Train Acc: 95.41%
+    Epoch 3/25 | Train Loss: 0.0370 | Train Acc: 99.08%
+    Epoch 4/25 | Train Loss: 0.0205 | Train Acc: 99.69%
+    Epoch 5/25 | Train Loss: 0.0136 | Train Acc: 99.85%
+    Epoch 6/25 | Train Loss: 0.0082 | Train Acc: 99.85%
+    Epoch 7/25 | Train Loss: 0.0059 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0044 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0026 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0441 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0606 | Train Acc: 98.16%
+    Epoch 12/25 | Train Loss: 0.0164 | Train Acc: 99.39%
+    Epoch 13/25 | Train Loss: 0.0214 | Train Acc: 99.69%
+    Epoch 14/25 | Train Loss: 0.0098 | Train Acc: 99.85%
+    Epoch 15/25 | Train Loss: 0.0058 | Train Acc: 99.85%
+    Epoch 16/25 | Train Loss: 0.0042 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0054 | Train Acc: 99.85%
+    Epoch 18/25 | Train Loss: 0.0040 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0021 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0043 | Train Acc: 99.85%
+    Epoch 21/25 | Train Loss: 0.0026 | Train Acc: 99.85%
+    Epoch 22/25 | Train Loss: 0.0011 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0006 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0007 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0014 | Train Acc: 100.00%
+RESULT | Baseline | Split 80% | Acc: 0.9512 (+/- 0.0000) | Recall: 0.9533
+
+========================================
+Running Architecture: ResNet50 + StatAware
+========================================
+  > Split: 10% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+Error in run: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+  > Split: 10% | Seed: 10 ...
+    Loss Function: CrossEntropyLoss()
+Error in run: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+  > Split: 10% | Seed: 20 ...
+    Loss Function: CrossEntropyLoss()
+Error in run: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+  > Split: 10% | Seed: 30 ...
+    Loss Function: CrossEntropyLoss()
+Error in run: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+  > Split: 10% | Seed: 40 ...
+    Loss Function: CrossEntropyLoss()
+Error in run: Expected more than 1 value per channel when training, got input size torch.Size([1, 16])
+RESULT | StatAware | Split 10% | Acc: 0.0000 (+/- 0.0000) | Recall: nan
+  > Split: 20% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5795 | Train Acc: 77.30%
+    Epoch 2/25 | Train Loss: 0.3882 | Train Acc: 92.02%
+    Epoch 3/25 | Train Loss: 0.2220 | Train Acc: 96.32%
+    Epoch 4/25 | Train Loss: 0.1713 | Train Acc: 95.71%
+    Epoch 5/25 | Train Loss: 0.0710 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.0507 | Train Acc: 99.39%
+    Epoch 7/25 | Train Loss: 0.0283 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0466 | Train Acc: 98.77%
+    Epoch 9/25 | Train Loss: 0.0647 | Train Acc: 98.16%
+    Epoch 10/25 | Train Loss: 0.0343 | Train Acc: 99.39%
+    Epoch 11/25 | Train Loss: 0.0224 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0579 | Train Acc: 98.77%
+    Epoch 13/25 | Train Loss: 0.0719 | Train Acc: 98.16%
+    Epoch 14/25 | Train Loss: 0.0357 | Train Acc: 99.39%
+    Epoch 15/25 | Train Loss: 0.0429 | Train Acc: 98.77%
+    Epoch 16/25 | Train Loss: 0.0339 | Train Acc: 99.39%
+    Epoch 17/25 | Train Loss: 0.0241 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0235 | Train Acc: 99.39%
+    Epoch 19/25 | Train Loss: 0.0244 | Train Acc: 99.39%
+    Epoch 20/25 | Train Loss: 0.0125 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0055 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0110 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0152 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0175 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0213 | Train Acc: 100.00%
+RESULT | StatAware | Split 20% | Acc: 0.8878 (+/- 0.0000) | Recall: 0.8861
+  > Split: 50% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5560 | Train Acc: 76.72%
+    Epoch 2/25 | Train Loss: 0.2239 | Train Acc: 96.57%
+    Epoch 3/25 | Train Loss: 0.1109 | Train Acc: 96.08%
+    Epoch 4/25 | Train Loss: 0.0588 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.0597 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.0438 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.0373 | Train Acc: 99.26%
+    Epoch 8/25 | Train Loss: 0.0170 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0141 | Train Acc: 99.75%
+    Epoch 10/25 | Train Loss: 0.0062 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0565 | Train Acc: 98.28%
+    Epoch 12/25 | Train Loss: 0.0417 | Train Acc: 98.28%
+    Epoch 13/25 | Train Loss: 0.0120 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0086 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0114 | Train Acc: 99.51%
+    Epoch 16/25 | Train Loss: 0.0156 | Train Acc: 99.75%
+    Epoch 17/25 | Train Loss: 0.0098 | Train Acc: 99.75%
+    Epoch 18/25 | Train Loss: 0.0049 | Train Acc: 99.75%
+    Epoch 19/25 | Train Loss: 0.0030 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0049 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0062 | Train Acc: 99.75%
+    Epoch 22/25 | Train Loss: 0.0032 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0030 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0033 | Train Acc: 99.75%
+    Epoch 25/25 | Train Loss: 0.0063 | Train Acc: 99.75%
+RESULT | StatAware | Split 50% | Acc: 0.9122 (+/- 0.0000) | Recall: 0.9095
+  > Split: 80% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.4406 | Train Acc: 85.91%
+    Epoch 2/25 | Train Loss: 0.1243 | Train Acc: 96.02%
+    Epoch 3/25 | Train Loss: 0.0622 | Train Acc: 98.47%
+    Epoch 4/25 | Train Loss: 0.0571 | Train Acc: 98.47%
+    Epoch 5/25 | Train Loss: 0.0197 | Train Acc: 99.85%
+    Epoch 6/25 | Train Loss: 0.0284 | Train Acc: 99.39%
+    Epoch 7/25 | Train Loss: 0.0242 | Train Acc: 99.54%
+    Epoch 8/25 | Train Loss: 0.0153 | Train Acc: 99.69%
+    Epoch 9/25 | Train Loss: 0.0205 | Train Acc: 99.54%
+    Epoch 10/25 | Train Loss: 0.0075 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0041 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0039 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0030 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0060 | Train Acc: 99.85%
+    Epoch 15/25 | Train Loss: 0.0093 | Train Acc: 99.69%
+    Epoch 16/25 | Train Loss: 0.0090 | Train Acc: 99.85%
+    Epoch 17/25 | Train Loss: 0.0050 | Train Acc: 99.85%
+    Epoch 18/25 | Train Loss: 0.0277 | Train Acc: 99.23%
+    Epoch 19/25 | Train Loss: 0.0234 | Train Acc: 99.08%
+    Epoch 20/25 | Train Loss: 0.0150 | Train Acc: 99.54%
+    Epoch 21/25 | Train Loss: 0.0260 | Train Acc: 99.23%
+    Epoch 22/25 | Train Loss: 0.0144 | Train Acc: 99.54%
+    Epoch 23/25 | Train Loss: 0.0079 | Train Acc: 99.85%
+    Epoch 24/25 | Train Loss: 0.0110 | Train Acc: 99.39%
+    Epoch 25/25 | Train Loss: 0.0153 | Train Acc: 99.69%
+RESULT | StatAware | Split 80% | Acc: 0.9561 (+/- 0.0000) | Recall: 0.9579
+
+========================================
+Running Architecture: ResNet50 + CBAM
+========================================
+  > Split: 10% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6623 | Train Acc: 58.02%
+    Epoch 2/25 | Train Loss: 0.4742 | Train Acc: 91.36%
+    Epoch 3/25 | Train Loss: 0.4109 | Train Acc: 96.30%
+    Epoch 4/25 | Train Loss: 0.3114 | Train Acc: 95.06%
+    Epoch 5/25 | Train Loss: 0.2282 | Train Acc: 97.53%
+    Epoch 6/25 | Train Loss: 0.2150 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1926 | Train Acc: 97.53%
+    Epoch 8/25 | Train Loss: 0.1185 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0761 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.1220 | Train Acc: 96.30%
+    Epoch 11/25 | Train Loss: 0.0550 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0723 | Train Acc: 97.53%
+    Epoch 13/25 | Train Loss: 0.0577 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0480 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0410 | Train Acc: 98.77%
+    Epoch 16/25 | Train Loss: 0.0427 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0268 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0429 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0333 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0636 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0320 | Train Acc: 98.77%
+    Epoch 22/25 | Train Loss: 0.0327 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0381 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0334 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0513 | Train Acc: 100.00%
+  > Split: 10% | Seed: 10 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6496 | Train Acc: 61.73%
+    Epoch 2/25 | Train Loss: 0.4817 | Train Acc: 93.83%
+    Epoch 3/25 | Train Loss: 0.3965 | Train Acc: 95.06%
+    Epoch 4/25 | Train Loss: 0.2847 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.2313 | Train Acc: 96.30%
+    Epoch 6/25 | Train Loss: 0.1749 | Train Acc: 97.53%
+    Epoch 7/25 | Train Loss: 0.1581 | Train Acc: 97.53%
+    Epoch 8/25 | Train Loss: 0.1711 | Train Acc: 98.77%
+    Epoch 9/25 | Train Loss: 0.0810 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0715 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0458 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0412 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0240 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0313 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0226 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0211 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0661 | Train Acc: 96.30%
+    Epoch 18/25 | Train Loss: 0.0461 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0309 | Train Acc: 98.77%
+    Epoch 20/25 | Train Loss: 0.0221 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0178 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0229 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0150 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0155 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0222 | Train Acc: 100.00%
+  > Split: 10% | Seed: 20 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6561 | Train Acc: 58.02%
+    Epoch 2/25 | Train Loss: 0.5086 | Train Acc: 87.65%
+    Epoch 3/25 | Train Loss: 0.3534 | Train Acc: 97.53%
+    Epoch 4/25 | Train Loss: 0.2803 | Train Acc: 95.06%
+    Epoch 5/25 | Train Loss: 0.2351 | Train Acc: 93.83%
+    Epoch 6/25 | Train Loss: 0.1487 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1460 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.1207 | Train Acc: 98.77%
+    Epoch 9/25 | Train Loss: 0.1067 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0747 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.1032 | Train Acc: 98.77%
+    Epoch 12/25 | Train Loss: 0.0539 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0556 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0740 | Train Acc: 97.53%
+    Epoch 15/25 | Train Loss: 0.0802 | Train Acc: 98.77%
+    Epoch 16/25 | Train Loss: 0.0885 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0583 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0473 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0474 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0647 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0530 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0458 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0381 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0555 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0770 | Train Acc: 98.77%
+  > Split: 10% | Seed: 30 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6431 | Train Acc: 60.49%
+    Epoch 2/25 | Train Loss: 0.4896 | Train Acc: 87.65%
+    Epoch 3/25 | Train Loss: 0.4066 | Train Acc: 87.65%
+    Epoch 4/25 | Train Loss: 0.3040 | Train Acc: 90.12%
+    Epoch 5/25 | Train Loss: 0.2259 | Train Acc: 96.30%
+    Epoch 6/25 | Train Loss: 0.2285 | Train Acc: 92.59%
+    Epoch 7/25 | Train Loss: 0.1793 | Train Acc: 97.53%
+    Epoch 8/25 | Train Loss: 0.1291 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.1158 | Train Acc: 97.53%
+    Epoch 10/25 | Train Loss: 0.0542 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0515 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0442 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0368 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0292 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0400 | Train Acc: 98.77%
+    Epoch 16/25 | Train Loss: 0.0273 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0334 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0156 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0191 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0352 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0382 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0411 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0242 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0202 | Train Acc: 100.00%
+  > Split: 10% | Seed: 40 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6419 | Train Acc: 64.20%
+    Epoch 2/25 | Train Loss: 0.4935 | Train Acc: 85.19%
+    Epoch 3/25 | Train Loss: 0.4448 | Train Acc: 85.19%
+    Epoch 4/25 | Train Loss: 0.3320 | Train Acc: 93.83%
+    Epoch 5/25 | Train Loss: 0.2512 | Train Acc: 96.30%
+    Epoch 6/25 | Train Loss: 0.1577 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1229 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0832 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0806 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0729 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0677 | Train Acc: 98.77%
+    Epoch 12/25 | Train Loss: 0.0359 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0460 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0749 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0413 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0273 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0447 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0316 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0496 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0447 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0310 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0201 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0411 | Train Acc: 98.77%
+    Epoch 24/25 | Train Loss: 0.0254 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0234 | Train Acc: 100.00%
+RESULT | CBAM | Split 10% | Acc: 0.8059 (+/- 0.0280) | Recall: 0.8040
+  > Split: 20% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5785 | Train Acc: 78.53%
+    Epoch 2/25 | Train Loss: 0.3949 | Train Acc: 85.89%
+    Epoch 3/25 | Train Loss: 0.2478 | Train Acc: 91.41%
+    Epoch 4/25 | Train Loss: 0.1217 | Train Acc: 97.55%
+    Epoch 5/25 | Train Loss: 0.0631 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.0539 | Train Acc: 99.39%
+    Epoch 7/25 | Train Loss: 0.0565 | Train Acc: 99.39%
+    Epoch 8/25 | Train Loss: 0.0352 | Train Acc: 99.39%
+    Epoch 9/25 | Train Loss: 0.0285 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0393 | Train Acc: 99.39%
+    Epoch 11/25 | Train Loss: 0.0877 | Train Acc: 96.93%
+    Epoch 12/25 | Train Loss: 0.0775 | Train Acc: 98.77%
+    Epoch 13/25 | Train Loss: 0.0339 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0378 | Train Acc: 99.39%
+    Epoch 15/25 | Train Loss: 0.0286 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0143 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0123 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0083 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0046 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0164 | Train Acc: 99.39%
+    Epoch 21/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0341 | Train Acc: 99.39%
+    Epoch 23/25 | Train Loss: 0.0184 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0158 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0191 | Train Acc: 98.77%
+RESULT | CBAM | Split 20% | Acc: 0.8927 (+/- 0.0000) | Recall: 0.8951
+  > Split: 50% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5211 | Train Acc: 75.25%
+    Epoch 2/25 | Train Loss: 0.2631 | Train Acc: 92.40%
+    Epoch 3/25 | Train Loss: 0.0946 | Train Acc: 97.55%
+    Epoch 4/25 | Train Loss: 0.0496 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.0533 | Train Acc: 98.53%
+    Epoch 6/25 | Train Loss: 0.0156 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0113 | Train Acc: 99.75%
+    Epoch 8/25 | Train Loss: 0.0165 | Train Acc: 99.75%
+    Epoch 9/25 | Train Loss: 0.0132 | Train Acc: 99.75%
+    Epoch 10/25 | Train Loss: 0.0344 | Train Acc: 98.53%
+    Epoch 11/25 | Train Loss: 0.0585 | Train Acc: 97.79%
+    Epoch 12/25 | Train Loss: 0.0350 | Train Acc: 99.26%
+    Epoch 13/25 | Train Loss: 0.0258 | Train Acc: 99.26%
+    Epoch 14/25 | Train Loss: 0.0448 | Train Acc: 99.26%
+    Epoch 15/25 | Train Loss: 0.0256 | Train Acc: 99.51%
+    Epoch 16/25 | Train Loss: 0.0290 | Train Acc: 99.02%
+    Epoch 17/25 | Train Loss: 0.0068 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0140 | Train Acc: 99.51%
+    Epoch 19/25 | Train Loss: 0.0127 | Train Acc: 99.75%
+    Epoch 20/25 | Train Loss: 0.0088 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0035 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0059 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0034 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0125 | Train Acc: 99.51%
+    Epoch 25/25 | Train Loss: 0.0101 | Train Acc: 99.75%
+RESULT | CBAM | Split 50% | Acc: 0.9220 (+/- 0.0000) | Recall: 0.9248
+  > Split: 80% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.4264 | Train Acc: 83.00%
+    Epoch 2/25 | Train Loss: 0.1315 | Train Acc: 96.17%
+    Epoch 3/25 | Train Loss: 0.0586 | Train Acc: 98.47%
+    Epoch 4/25 | Train Loss: 0.0378 | Train Acc: 99.23%
+    Epoch 5/25 | Train Loss: 0.0440 | Train Acc: 98.62%
+    Epoch 6/25 | Train Loss: 0.0385 | Train Acc: 99.23%
+    Epoch 7/25 | Train Loss: 0.0247 | Train Acc: 99.39%
+    Epoch 8/25 | Train Loss: 0.0180 | Train Acc: 99.54%
+    Epoch 9/25 | Train Loss: 0.0234 | Train Acc: 99.23%
+    Epoch 10/25 | Train Loss: 0.0127 | Train Acc: 99.69%
+    Epoch 11/25 | Train Loss: 0.0480 | Train Acc: 98.77%
+    Epoch 12/25 | Train Loss: 0.0319 | Train Acc: 99.39%
+    Epoch 13/25 | Train Loss: 0.0297 | Train Acc: 98.93%
+    Epoch 14/25 | Train Loss: 0.0273 | Train Acc: 99.08%
+    Epoch 15/25 | Train Loss: 0.0066 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0050 | Train Acc: 99.85%
+    Epoch 17/25 | Train Loss: 0.0218 | Train Acc: 99.23%
+    Epoch 18/25 | Train Loss: 0.0167 | Train Acc: 99.54%
+    Epoch 19/25 | Train Loss: 0.0099 | Train Acc: 99.69%
+    Epoch 20/25 | Train Loss: 0.0076 | Train Acc: 99.69%
+    Epoch 21/25 | Train Loss: 0.0053 | Train Acc: 99.85%
+    Epoch 22/25 | Train Loss: 0.0017 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0015 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0010 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0034 | Train Acc: 100.00%
+RESULT | CBAM | Split 80% | Acc: 0.9707 (+/- 0.0000) | Recall: 0.9707
+
+========================================
+Running Architecture: ResNet50 + ECA
+========================================
+  > Split: 10% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6495 | Train Acc: 53.09%
+    Epoch 2/25 | Train Loss: 0.4374 | Train Acc: 85.19%
+    Epoch 3/25 | Train Loss: 0.3277 | Train Acc: 91.36%
+    Epoch 4/25 | Train Loss: 0.2623 | Train Acc: 95.06%
+    Epoch 5/25 | Train Loss: 0.1646 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1404 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1155 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0897 | Train Acc: 98.77%
+    Epoch 9/25 | Train Loss: 0.0716 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0447 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0249 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0424 | Train Acc: 98.77%
+    Epoch 13/25 | Train Loss: 0.0184 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0212 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.1395 | Train Acc: 91.36%
+    Epoch 16/25 | Train Loss: 0.0490 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0401 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0172 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0244 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0257 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0145 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0284 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0351 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0338 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0474 | Train Acc: 98.77%
+  > Split: 10% | Seed: 10 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6278 | Train Acc: 64.20%
+    Epoch 2/25 | Train Loss: 0.4281 | Train Acc: 97.53%
+    Epoch 3/25 | Train Loss: 0.2958 | Train Acc: 98.77%
+    Epoch 4/25 | Train Loss: 0.2170 | Train Acc: 97.53%
+    Epoch 5/25 | Train Loss: 0.1659 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1189 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0787 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0530 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.1963 | Train Acc: 95.06%
+    Epoch 10/25 | Train Loss: 0.0403 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0545 | Train Acc: 97.53%
+    Epoch 12/25 | Train Loss: 0.0387 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0778 | Train Acc: 97.53%
+    Epoch 14/25 | Train Loss: 0.0347 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0380 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0326 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0263 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0203 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0189 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0307 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0327 | Train Acc: 98.77%
+    Epoch 22/25 | Train Loss: 0.0081 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0215 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0118 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0169 | Train Acc: 100.00%
+  > Split: 10% | Seed: 20 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5980 | Train Acc: 71.60%
+    Epoch 2/25 | Train Loss: 0.4627 | Train Acc: 91.36%
+    Epoch 3/25 | Train Loss: 0.3637 | Train Acc: 91.36%
+    Epoch 4/25 | Train Loss: 0.2488 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.1551 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1357 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0927 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0953 | Train Acc: 98.77%
+    Epoch 9/25 | Train Loss: 0.0473 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0522 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0601 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0474 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0307 | Train Acc: 98.77%
+    Epoch 14/25 | Train Loss: 0.0245 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0250 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0363 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0140 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0198 | Train Acc: 98.77%
+    Epoch 19/25 | Train Loss: 0.0127 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0224 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0198 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0206 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0252 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0154 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0249 | Train Acc: 100.00%
+  > Split: 10% | Seed: 30 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6270 | Train Acc: 70.37%
+    Epoch 2/25 | Train Loss: 0.5429 | Train Acc: 83.95%
+    Epoch 3/25 | Train Loss: 0.3659 | Train Acc: 97.53%
+    Epoch 4/25 | Train Loss: 0.3934 | Train Acc: 88.89%
+    Epoch 5/25 | Train Loss: 0.2574 | Train Acc: 97.53%
+    Epoch 6/25 | Train Loss: 0.1615 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1164 | Train Acc: 98.77%
+    Epoch 8/25 | Train Loss: 0.1040 | Train Acc: 97.53%
+    Epoch 9/25 | Train Loss: 0.1073 | Train Acc: 97.53%
+    Epoch 10/25 | Train Loss: 0.0692 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0455 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0497 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0342 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0391 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0268 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0302 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0214 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0204 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0232 | Train Acc: 98.77%
+    Epoch 20/25 | Train Loss: 0.0138 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0257 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0193 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0104 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0299 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0204 | Train Acc: 98.77%
+  > Split: 10% | Seed: 40 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6639 | Train Acc: 62.96%
+    Epoch 2/25 | Train Loss: 0.5029 | Train Acc: 82.72%
+    Epoch 3/25 | Train Loss: 0.3957 | Train Acc: 91.36%
+    Epoch 4/25 | Train Loss: 0.3179 | Train Acc: 97.53%
+    Epoch 5/25 | Train Loss: 0.2494 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1841 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1438 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.1316 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0875 | Train Acc: 98.77%
+    Epoch 10/25 | Train Loss: 0.0831 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0689 | Train Acc: 98.77%
+    Epoch 12/25 | Train Loss: 0.0472 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0524 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0432 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0340 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0479 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0334 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0336 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0379 | Train Acc: 98.77%
+    Epoch 20/25 | Train Loss: 0.0297 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0227 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0137 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0196 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0242 | Train Acc: 100.00%
+RESULT | ECA | Split 10% | Acc: 0.8185 (+/- 0.0228) | Recall: 0.8195
+  > Split: 20% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6216 | Train Acc: 73.62%
+    Epoch 2/25 | Train Loss: 0.4260 | Train Acc: 93.87%
+    Epoch 3/25 | Train Loss: 0.2826 | Train Acc: 95.71%
+    Epoch 4/25 | Train Loss: 0.1575 | Train Acc: 96.93%
+    Epoch 5/25 | Train Loss: 0.1019 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.0403 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.0318 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0638 | Train Acc: 98.16%
+    Epoch 9/25 | Train Loss: 0.0523 | Train Acc: 98.77%
+    Epoch 10/25 | Train Loss: 0.0440 | Train Acc: 99.39%
+    Epoch 11/25 | Train Loss: 0.0672 | Train Acc: 99.39%
+    Epoch 12/25 | Train Loss: 0.0542 | Train Acc: 99.39%
+    Epoch 13/25 | Train Loss: 0.0194 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0240 | Train Acc: 99.39%
+    Epoch 15/25 | Train Loss: 0.0153 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0117 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0074 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0208 | Train Acc: 99.39%
+    Epoch 19/25 | Train Loss: 0.0190 | Train Acc: 99.39%
+    Epoch 20/25 | Train Loss: 0.0366 | Train Acc: 98.16%
+    Epoch 21/25 | Train Loss: 0.1276 | Train Acc: 96.93%
+    Epoch 22/25 | Train Loss: 0.0199 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0210 | Train Acc: 98.77%
+    Epoch 24/25 | Train Loss: 0.0100 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0146 | Train Acc: 100.00%
+RESULT | ECA | Split 20% | Acc: 0.8634 (+/- 0.0000) | Recall: 0.8636
+  > Split: 50% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5212 | Train Acc: 82.84%
+    Epoch 2/25 | Train Loss: 0.2507 | Train Acc: 93.14%
+    Epoch 3/25 | Train Loss: 0.0813 | Train Acc: 98.77%
+    Epoch 4/25 | Train Loss: 0.0542 | Train Acc: 98.28%
+    Epoch 5/25 | Train Loss: 0.0497 | Train Acc: 99.02%
+    Epoch 6/25 | Train Loss: 0.0603 | Train Acc: 98.04%
+    Epoch 7/25 | Train Loss: 0.0333 | Train Acc: 99.75%
+    Epoch 8/25 | Train Loss: 0.0165 | Train Acc: 99.51%
+    Epoch 9/25 | Train Loss: 0.0086 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0049 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0052 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0040 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0039 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0023 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0022 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0048 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0265 | Train Acc: 99.02%
+    Epoch 18/25 | Train Loss: 0.0071 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0086 | Train Acc: 99.75%
+    Epoch 20/25 | Train Loss: 0.0080 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0054 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0032 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0012 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0141 | Train Acc: 99.51%
+    Epoch 25/25 | Train Loss: 0.0347 | Train Acc: 99.26%
+RESULT | ECA | Split 50% | Acc: 0.8829 (+/- 0.0000) | Recall: 0.8844
+  > Split: 80% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.4807 | Train Acc: 81.47%
+    Epoch 2/25 | Train Loss: 0.1690 | Train Acc: 95.71%
+    Epoch 3/25 | Train Loss: 0.0747 | Train Acc: 97.70%
+    Epoch 4/25 | Train Loss: 0.0382 | Train Acc: 99.23%
+    Epoch 5/25 | Train Loss: 0.0146 | Train Acc: 99.85%
+    Epoch 6/25 | Train Loss: 0.0179 | Train Acc: 99.69%
+    Epoch 7/25 | Train Loss: 0.0135 | Train Acc: 99.85%
+    Epoch 8/25 | Train Loss: 0.0125 | Train Acc: 99.85%
+    Epoch 9/25 | Train Loss: 0.0116 | Train Acc: 99.85%
+    Epoch 10/25 | Train Loss: 0.0141 | Train Acc: 99.69%
+    Epoch 11/25 | Train Loss: 0.0181 | Train Acc: 99.54%
+    Epoch 12/25 | Train Loss: 0.0521 | Train Acc: 98.62%
+    Epoch 13/25 | Train Loss: 0.0583 | Train Acc: 98.62%
+    Epoch 14/25 | Train Loss: 0.0130 | Train Acc: 99.69%
+    Epoch 15/25 | Train Loss: 0.0071 | Train Acc: 99.85%
+    Epoch 16/25 | Train Loss: 0.0149 | Train Acc: 99.69%
+    Epoch 17/25 | Train Loss: 0.0161 | Train Acc: 99.85%
+    Epoch 18/25 | Train Loss: 0.0080 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0037 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0007 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0012 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0009 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0009 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0114 | Train Acc: 99.69%
+    Epoch 25/25 | Train Loss: 0.0066 | Train Acc: 100.00%
+RESULT | ECA | Split 80% | Acc: 0.9610 (+/- 0.0000) | Recall: 0.9618
+
+========================================
+Running Architecture: ResNet50 + SimAM
+========================================
+  > Split: 10% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6481 | Train Acc: 60.49%
+    Epoch 2/25 | Train Loss: 0.4760 | Train Acc: 90.12%
+    Epoch 3/25 | Train Loss: 0.3898 | Train Acc: 95.06%
+    Epoch 4/25 | Train Loss: 0.3068 | Train Acc: 93.83%
+    Epoch 5/25 | Train Loss: 0.2353 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1748 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1367 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0983 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0704 | Train Acc: 98.77%
+    Epoch 10/25 | Train Loss: 0.0520 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0588 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0379 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0481 | Train Acc: 98.77%
+    Epoch 14/25 | Train Loss: 0.0520 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0322 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0255 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0318 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0210 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0216 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0274 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0179 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0141 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0145 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0123 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0176 | Train Acc: 100.00%
+  > Split: 10% | Seed: 10 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6170 | Train Acc: 67.90%
+    Epoch 2/25 | Train Loss: 0.5111 | Train Acc: 82.72%
+    Epoch 3/25 | Train Loss: 0.3813 | Train Acc: 93.83%
+    Epoch 4/25 | Train Loss: 0.2345 | Train Acc: 100.00%
+    Epoch 5/25 | Train Loss: 0.1463 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1484 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1013 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.1189 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0503 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0585 | Train Acc: 98.77%
+    Epoch 11/25 | Train Loss: 0.0387 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0383 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0279 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0356 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0386 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0250 | Train Acc: 98.77%
+    Epoch 17/25 | Train Loss: 0.0205 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0210 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0244 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0128 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0138 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0138 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0119 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0164 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0219 | Train Acc: 100.00%
+  > Split: 10% | Seed: 20 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6247 | Train Acc: 65.43%
+    Epoch 2/25 | Train Loss: 0.4858 | Train Acc: 88.89%
+    Epoch 3/25 | Train Loss: 0.3621 | Train Acc: 96.30%
+    Epoch 4/25 | Train Loss: 0.2703 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.2173 | Train Acc: 98.77%
+    Epoch 6/25 | Train Loss: 0.1617 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1042 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0808 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0635 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0489 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0346 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0418 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0421 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0410 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0214 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0214 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0202 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0192 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0213 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0224 | Train Acc: 98.77%
+    Epoch 21/25 | Train Loss: 0.0111 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0159 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0267 | Train Acc: 98.77%
+    Epoch 24/25 | Train Loss: 0.0132 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0306 | Train Acc: 100.00%
+  > Split: 10% | Seed: 30 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6427 | Train Acc: 59.26%
+    Epoch 2/25 | Train Loss: 0.4801 | Train Acc: 83.95%
+    Epoch 3/25 | Train Loss: 0.3353 | Train Acc: 100.00%
+    Epoch 4/25 | Train Loss: 0.2524 | Train Acc: 97.53%
+    Epoch 5/25 | Train Loss: 0.2108 | Train Acc: 97.53%
+    Epoch 6/25 | Train Loss: 0.1709 | Train Acc: 100.00%
+    Epoch 7/25 | Train Loss: 0.1313 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.1124 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0631 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0537 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0380 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0435 | Train Acc: 98.77%
+    Epoch 13/25 | Train Loss: 0.0323 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0282 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0325 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0255 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0321 | Train Acc: 98.77%
+    Epoch 18/25 | Train Loss: 0.0262 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0210 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0178 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0278 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0317 | Train Acc: 98.77%
+    Epoch 23/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0166 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0178 | Train Acc: 100.00%
+  > Split: 10% | Seed: 40 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.6558 | Train Acc: 61.73%
+    Epoch 2/25 | Train Loss: 0.4863 | Train Acc: 83.95%
+    Epoch 3/25 | Train Loss: 0.3886 | Train Acc: 97.53%
+    Epoch 4/25 | Train Loss: 0.2755 | Train Acc: 98.77%
+    Epoch 5/25 | Train Loss: 0.1963 | Train Acc: 100.00%
+    Epoch 6/25 | Train Loss: 0.1587 | Train Acc: 98.77%
+    Epoch 7/25 | Train Loss: 0.1466 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0869 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0674 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0643 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0407 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0415 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0386 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0268 | Train Acc: 98.77%
+    Epoch 15/25 | Train Loss: 0.0252 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0313 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0230 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0202 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0162 | Train Acc: 100.00%
+    Epoch 20/25 | Train Loss: 0.0262 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0127 | Train Acc: 100.00%
+    Epoch 22/25 | Train Loss: 0.0194 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0105 | Train Acc: 100.00%
+    Epoch 24/25 | Train Loss: 0.0201 | Train Acc: 98.77%
+    Epoch 25/25 | Train Loss: 0.0223 | Train Acc: 100.00%
+RESULT | SimAM | Split 10% | Acc: 0.7580 (+/- 0.0517) | Recall: 0.7624
+  > Split: 20% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5934 | Train Acc: 75.46%
+    Epoch 2/25 | Train Loss: 0.3847 | Train Acc: 92.64%
+    Epoch 3/25 | Train Loss: 0.2207 | Train Acc: 97.55%
+    Epoch 4/25 | Train Loss: 0.1130 | Train Acc: 99.39%
+    Epoch 5/25 | Train Loss: 0.0783 | Train Acc: 99.39%
+    Epoch 6/25 | Train Loss: 0.0517 | Train Acc: 99.39%
+    Epoch 7/25 | Train Loss: 0.0219 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0285 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0141 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0110 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0101 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0075 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0043 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0052 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0099 | Train Acc: 100.00%
+    Epoch 16/25 | Train Loss: 0.0052 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0161 | Train Acc: 100.00%
+    Epoch 18/25 | Train Loss: 0.0047 | Train Acc: 100.00%
+    Epoch 19/25 | Train Loss: 0.0387 | Train Acc: 98.16%
+    Epoch 20/25 | Train Loss: 0.0209 | Train Acc: 100.00%
+    Epoch 21/25 | Train Loss: 0.0340 | Train Acc: 99.39%
+    Epoch 22/25 | Train Loss: 0.0207 | Train Acc: 100.00%
+    Epoch 23/25 | Train Loss: 0.0141 | Train Acc: 99.39%
+    Epoch 24/25 | Train Loss: 0.0157 | Train Acc: 100.00%
+    Epoch 25/25 | Train Loss: 0.0060 | Train Acc: 100.00%
+RESULT | SimAM | Split 20% | Acc: 0.7512 (+/- 0.0000) | Recall: 0.7613
+  > Split: 50% | Seed: 42 ...
+    Loss Function: CrossEntropyLoss()
+    Epoch 1/25 | Train Loss: 0.5195 | Train Acc: 79.17%
+    Epoch 2/25 | Train Loss: 0.2034 | Train Acc: 96.08%
+    Epoch 3/25 | Train Loss: 0.0583 | Train Acc: 99.75%
+    Epoch 4/25 | Train Loss: 0.0424 | Train Acc: 99.02%
+    Epoch 5/25 | Train Loss: 0.0161 | Train Acc: 99.75%
+    Epoch 6/25 | Train Loss: 0.0191 | Train Acc: 99.75%
+    Epoch 7/25 | Train Loss: 0.0097 | Train Acc: 100.00%
+    Epoch 8/25 | Train Loss: 0.0083 | Train Acc: 100.00%
+    Epoch 9/25 | Train Loss: 0.0045 | Train Acc: 100.00%
+    Epoch 10/25 | Train Loss: 0.0033 | Train Acc: 100.00%
+    Epoch 11/25 | Train Loss: 0.0026 | Train Acc: 100.00%
+    Epoch 12/25 | Train Loss: 0.0024 | Train Acc: 100.00%
+    Epoch 13/25 | Train Loss: 0.0011 | Train Acc: 100.00%
+    Epoch 14/25 | Train Loss: 0.0013 | Train Acc: 100.00%
+    Epoch 15/25 | Train Loss: 0.0037 | Train Acc: 99.75%
+    Epoch 16/25 | Train Loss: 0.0034 | Train Acc: 100.00%
+    Epoch 17/25 | Train Loss: 0.0461 | Train Acc: 98.53%
+    Epoch 18/25 | Train Loss: 0.0500 | Train Acc: 98.77%
