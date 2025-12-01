@@ -44,7 +44,7 @@ Medical datasets are small, imbalanced, and contain high texture variability. St
 
 ### **Solution**
 
-Integrate **Attention Mechanisms** into SOTA CNN backbones for improved lesion detection, interpretability, and robustness.
+Integrate **Attention Mechanisms** into RESNET-50 backbones for improved lesion detection, interpretability, and robustness.
 
 ---
 
@@ -232,4 +232,5 @@ Endometriosis-ResNet-CBAM/
 * **Saumya (U20230016)**
 * **Bhavya Pathak (U20230136)**
 * **Harmannat Kaur (U20230066)**
+
 
