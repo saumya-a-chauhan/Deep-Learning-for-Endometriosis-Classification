@@ -85,18 +85,9 @@ A modular library integrates multiple attention blocks:
 
 ---
 
-## **🌟 Novelty: StatAware Block**
-
-A custom-designed **StatAware Attention Block** introduces **global standard deviation (variance)** alongside global mean.
-
-### **Why?**
-
-Lesions exhibit textural irregularities.
-Standard GAP only captures *mean* intensity — missing texture cues.
 
 ### **Innovation**
 
-➡️ Compute **Global Mean + Global StdDev**
 ➡️ Feed both into the attention module
 ➡️ Improve texture-sensitive classification
 
@@ -138,14 +129,6 @@ Standard GAP only captures *mean* intensity — missing texture cues.
 | ResNet50                | 78.15%     |
 
 ---
-
-### **3. ✔ Novelty Validation: StatAware Block**
-
-| Data Split | ResNet Baseline | ResNet + StatAware | Δ Improvement |
-| ---------- | --------------- | ------------------ | ------------- |
-| **20%**    | 84.39%          | **88.78%**         | **+4.39%**    |
-| **50%**    | 95.12%          | 91.22%             | -3.90%        |
-| **80%**    | 95.12%          | **95.61%**         | **+0.49%**    |
 
 ---
 
@@ -232,5 +215,6 @@ Endometriosis-ResNet-CBAM/
 * **Saumya (U20230016)**
 * **Bhavya Pathak (U20230136)**
 * **Harmannat Kaur (U20230066)**
+
 
 
