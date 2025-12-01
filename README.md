@@ -104,7 +104,6 @@ A modular library integrates multiple attention blocks:
   * Optimizer: **AdamW (1e-4)**
   * Loss: **CrossEntropy + Label Smoothing (0.1)**
   * Epochs: **25**
-  * AMP (Mixed Precision)
 
 ---
 
@@ -215,6 +214,7 @@ Endometriosis-ResNet-CBAM/
 * **Saumya (U20230016)**
 * **Bhavya Pathak (U20230136)**
 * **Harmannat Kaur (U20230066)**
+
 
 
 
