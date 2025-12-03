@@ -30,11 +30,11 @@ Endometriosis is a chronic gynecological condition affecting **~10% of reproduct
 This project builds a **Computer-Aided Diagnosis (CAD)** system to classify laparoscopic images as **Endometriosis** or **Non-Endometriosis**.
 We compare modern deep learning architectures and integrate attention blocks to identify the most effective model under **data-scarce medical settings**.
 
----
 
 
-https://github.com/user-attachments/assets/6fcf7e22-7857-439e-9369-0163427d45d0
 
+
+https://github.com/user-attachments/assets/5793d688-8ce9-40ca-82da-eed8dc236f1f
 
 
 ## **🎯 Motivation**
@@ -219,6 +219,7 @@ Endometriosis-ResNet-CBAM/
 * **Saumya (U20230016)**
 * **Bhavya Pathak (U20230136)**
 * **Harmannat Kaur (U20230066)**
+
 
 
 
